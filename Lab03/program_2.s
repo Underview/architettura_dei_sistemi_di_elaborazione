@@ -36,8 +36,7 @@ lb r1,DIM(r0)
 daddi r2,r0,0
 cycle:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;
-l.d f1,v1(r2); carico v1
-mov.d f7,f1
+l.d f7,v1(r2); carico v1
 l.d f1,v2(r2);carico v2
 l.d f2,v3(r2);carico v3
 mul.d f3,f1,f2;calcolo prodotto v2*v3
