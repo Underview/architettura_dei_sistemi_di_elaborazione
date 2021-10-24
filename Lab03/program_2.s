@@ -19,7 +19,7 @@ v6: .space 320
 v7: .space 320
 
 
-DIM: .byte 40
+DIM: .byte 3
 .text
 
 main:
