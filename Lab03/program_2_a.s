@@ -51,5 +51,6 @@ s.d f8,v6(r2)
 div.d f9,f8,f1
 s.d f9,v7(r2)
 ;;;;;;;;;;;;;;;;;;;;;;
-daddi r2,r2,8
 bnez r1, cycle
+daddi r2,r2,8
+halt
