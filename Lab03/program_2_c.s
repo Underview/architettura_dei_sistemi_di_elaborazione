@@ -52,7 +52,7 @@ s.d f8,v6(r2)
 div.d f9,f8,f1
 s.d f9,v7(r2)
 ;;;;;;;;;;;;;;;;;;;;;;
-daddi r2,r2,8
+daddi r2,r2,8 ; 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;
 l.d f7,v1(r2); carico v1
@@ -71,7 +71,7 @@ s.d f8,v6(r2)
 div.d f9,f8,f1
 s.d f9,v7(r2)
 ;;;;;;;;;;;;;;;;;;;;;;
-daddi r2,r2,8
+daddi r2,r2,8 ; cambia nome
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;
 l.d f7,v1(r2); carico v1
@@ -90,7 +90,7 @@ s.d f8,v6(r2)
 div.d f9,f8,f1
 s.d f9,v7(r2)
 ;;;;;;;;;;;;;;;;;;;;;;
-daddi r2,r2,8
+daddi r2,r2,8 ; cambia nome
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -112,5 +112,5 @@ s.d f9,v7(r2)
 
 
 bnez r1, cycle
-daddi r2,r2,8
+daddi r2,r2,8;cambia
 halt
