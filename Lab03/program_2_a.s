@@ -53,4 +53,3 @@ s.d f9,v7(r2)
 ;;;;;;;;;;;;;;;;;;;;;;
 daddi r2,r2,8
 bnez r1, cycle
-halt
