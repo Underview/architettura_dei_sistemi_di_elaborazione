@@ -102,14 +102,12 @@ cycle:
 
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-
-
-
-bnez r1, cycle
-    daddi r2,r2,8
     daddi r3,r3,8
     daddi r5,r5,8
     daddi r4,r4,8
+bnez r1, cycle
+    daddi r2,r2,8
+   
 
 nop
 halt
