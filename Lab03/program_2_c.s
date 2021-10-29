@@ -96,11 +96,11 @@ cycle:
 
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-    daddi r3,r3,8
-    daddi r5,r5,8
-    daddi r4,r4,8
+    daddi r3,r3,32
+    daddi r5,r5,32
+    daddi r4,r4,32
 bnez r1, cycle
-    daddi r2,r2,8
+    daddi r2,r2,32
    
 
 nop
