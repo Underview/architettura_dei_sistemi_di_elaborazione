@@ -31,32 +31,6 @@ v7: .space 320
 DIM: .byte 40
 .text
 
-;con valori piccoli viene corretto
-
-.data 
-
-v1: .double 1.0,2.0,3.0,1.0
-
-v2: .double 1.0,2.0,3.0,1.0
- 
-
-    
-v3: .double 1.0,2.0,3.0,1.0
-
-
-v4: .double 1.0,2.0,3.0,1.0
-
-
-
-
-v5: .space 320
-v6: .space 320
-v7: .space 320
-
-
-DIM: .byte 4
-.text
-
 
 main:
 lb r1,DIM(r0)
